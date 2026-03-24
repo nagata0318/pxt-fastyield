@@ -6,5 +6,8 @@
         "main.ts",
         "extension.cpp"
     ],
-    "public": true
+    "public": true,
+    "dependencies": {
+        "core": "*"
+    }
 }
