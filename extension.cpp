@@ -1,8 +1,8 @@
 #include "pxt.h"
 
 namespace fastyield {
-    // JavaScript から呼ばれる関数
+    //% shim=fastyield::yield_now
     void yield_now() {
-        fiber_sleep(0);  // ← 最短の協調的yield！
+        fiber_sleep(0);
     }
 }
