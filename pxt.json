@@ -1,0 +1,11 @@
+{
+    "name": "fastyield",
+    "description": "fiber_sleep(0) による最短yield拡張",
+    "files": [
+        "main.ts",
+        "extension.cpp"
+    ],
+    "dependencies": {
+        "core": "*"
+    }
+}
